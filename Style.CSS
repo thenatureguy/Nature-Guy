@@ -1,0 +1,66 @@
+/*Selector {
+	Property: Value;
+}*/
+
+* {
+	text-align: center;
+
+}
+
+body {
+	background-image: url(IMG_0177.jpeg);
+	background-size:cover ;
+}
+
+h1 {
+	color:green;
+	box-shadow: 5px 10px blue;
+	text-align:center;
+	cursor: pointer;
+	background-color: white;
+	opacity: 0.4;
+}
+
+h2 + p:hover {
+	text-align:left;
+	background-color: rgba(144, 94, 4, 0.5) ;
+}
+
+h2  {
+	text-align:left;
+
+}
+
+h3 {
+    text-align: left;
+    
+}
+
+pre {
+	text-align: left;
+}
+
+
+p {
+
+	color: red !important;
+}
+
+p {
+
+	color: green;
+}
+
+.webtext:first-child {
+		border: 5px dashed green;
+
+}
+
+.different{
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 1.0);
+
+}
